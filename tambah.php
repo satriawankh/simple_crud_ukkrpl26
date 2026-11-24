@@ -11,7 +11,7 @@ include "cek_login.php";
 </head>
 <body>
     <h1>Tambah Data</h1>
-    <form action="proses_tambah.php" method="get" enctype="multipart/form-data">
+    <form action="proses_tambah.php" method="post" enctype="multipart/form-data">
         <label for="nis">NIS</label>
         <input type="text" name="nis" id="" required> <br> <br>
         <label for="nama">Nama</label>

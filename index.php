@@ -37,7 +37,7 @@ $query= mysqli_query($koneksi, $sql);
             <td><?= $siswa['nama'] ?></td>
             <td><?= $siswa['alamat'] ?></td>
             <td><?= $siswa['jurusan'] ?></td>
-            <td><?= $siswa['foto'] ?></td>
+            <td><img src="foto/<?= $siswa['foto'] ?>" width=100></td>
             <td>
                 <a href="edit.php?id_siswa=<?= $siswa['id_siswa']?>">Edit</a> | 
                 <a href="hapus.php?id_siswa=<?= $siswa['id_siswa']?>"
