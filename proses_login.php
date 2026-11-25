@@ -1,8 +1,8 @@
 <?php 
 include "koneksi.php";
  
-$username = $_GET['username'];
-$password = $_GET['password'];
+$username = $_POST['username'];
+$password = $_POST['password'];
  
 $sql = "select * from user where username='$username' and password='$password'";
 $query = mysqli_query($koneksi, $sql);
