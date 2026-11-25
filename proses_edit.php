@@ -7,7 +7,7 @@ $nis = $_POST['nis'];
 $nama = $_POST['nama'];
 $alamat = $_POST['alamat'];
 $jurusan = $_POST['jurusan'];
-$foto = $_FILES['foto'];
+$foto = $_POST['foto'];
 
 if($_FILES['foto']['name']){
     $foto = $_FILES['foto']['name'];
