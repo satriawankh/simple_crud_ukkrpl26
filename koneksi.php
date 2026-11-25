@@ -12,3 +12,4 @@ $koneksi = mysqli_connect($server, $username, $password, $database);
 // } else {
 //     echo "koneksi gagal";
 // }
+?>
